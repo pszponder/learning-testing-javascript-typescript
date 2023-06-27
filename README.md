@@ -1,5 +1,9 @@
 # Testing in JavaScript / TypeScript
 
+This repository is a collection of notes and examples for testing in JavaScript and Typescript.
+
+Unit Testing portion is done using `Vitest` package instead of `Jest` although the examples should be mostly interchangeable.
+
 ## Running Tests
 
 ```bash
@@ -40,3 +44,6 @@ Use the following command to run the scripts:
 -   `scratch`: Runs the transpiles and `scratch.ts` file located in the `src/_scratch` directory
 
 ## References:
+
+-   [Jest Docs](https://jestjs.io/docs/getting-started)
+-   [Vitest Docs](https://vitest.dev/guide/)
