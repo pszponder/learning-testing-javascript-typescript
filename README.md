@@ -47,3 +47,4 @@ Use the following command to run the scripts:
 
 -   [Jest Docs](https://jestjs.io/docs/getting-started)
 -   [Vitest Docs](https://vitest.dev/guide/)
+-   [Vitest - Examples](https://github.com/vitest-dev/vitest/tree/main/examples)
