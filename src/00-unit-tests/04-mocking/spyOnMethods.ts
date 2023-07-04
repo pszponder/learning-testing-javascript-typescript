@@ -53,6 +53,7 @@ export class SpyOnThis {
      */
     public returnSumWrapper() {
         const numArr = [this.a, this.b];
+        this.returnSum(numArr); // Call an extra time to test number of times function called
         return this.returnSum(numArr);
     }
 }
