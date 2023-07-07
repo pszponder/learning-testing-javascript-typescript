@@ -7,7 +7,7 @@
 -   Note that the `it` function accepts an asynchronous callback (you can omit `async` keyword if you don't want it to be run asynchronously)
 
 ```ts
-import { describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 describe("", () => {
     it("", async () => {

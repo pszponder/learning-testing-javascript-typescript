@@ -18,8 +18,10 @@ pnpm test-watch
 
 ## Unit tests
 
+Basic Unit Test Template
+
 ```ts
-import { describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 describe("", () => {
     it("", async () => {
